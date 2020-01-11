@@ -272,9 +272,7 @@ def plotGraph(mean1, std1, method1, mean2, std2, method2):
     plt.legend(loc="lower right")
     plt.show()
 
-#if __name__ == "__main__":
 
-#directory = "C:/Users/Viral Prajapati/Machine Learning/Programming Project 4/20newsgroups"
 directory = os.path.dirname(os.path.abspath(__file__))
 data , files = readDirectory(directory+"/20newsgroups")
 words , uniqueWords = preprocess(data)
