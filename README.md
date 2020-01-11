@@ -1,4 +1,4 @@
-# Machine Learning Programming Project
+# Latent Dirichlet Allocation
 
 LDA is a generative topic modeling approach which takes into consideration the 
 latent structure that underlies within the set of words. With the use of Gibbs 
